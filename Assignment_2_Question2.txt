@@ -1,0 +1,14 @@
+package day1;
+
+public class Assignment2 {
+
+	public static void main(String[] args) {
+		double product_price = 499.5;
+
+		int Quantity = 3;
+
+		System.out.println("Total price of the product:" + product_price * Quantity);
+
+	}
+
+}

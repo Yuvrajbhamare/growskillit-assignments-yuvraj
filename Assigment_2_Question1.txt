@@ -1,0 +1,22 @@
+package day1;
+
+public class Assignment1 {
+
+	public static void main(String[] args) {
+
+		long Employee_Id = 1001;
+		int Age = 28;
+		double salary = 55000.50;
+		char Depertment_initial = 'T';
+
+		boolean isEmployeePermanat = true;
+
+		System.out.println("Employee_Id:" + Employee_Id);
+		System.out.println("Employee_Age:" + Age);
+		System.out.println("Employee_Salary:" + salary);
+		System.out.println("Employee_Department:" + Depertment_initial);
+		System.out.println("Employee is Permanat ?:" + isEmployeePermanat);
+
+	}
+
+}
