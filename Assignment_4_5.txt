@@ -1,0 +1,30 @@
+package assignmentsOnly;
+
+public class Assignment4_5 {
+
+	public static void main(String[] args) {
+
+		int[] arr = { -4, 7, 0, -2, 9, 0, -8, 5 };
+
+		// Print positive numbers
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] > 0) {
+				System.out.print(arr[i] + " ");
+			}
+		}
+
+		// Print negative numbers
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] < 0) {
+				System.out.print(arr[i] + " ");
+			}
+		}
+
+		// Print zeros
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] == 0) {
+				System.out.print(arr[i] + " ");
+			}
+		}
+	}
+}

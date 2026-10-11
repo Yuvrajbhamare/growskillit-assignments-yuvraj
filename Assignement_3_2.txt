@@ -1,0 +1,23 @@
+package assignmentsOnly;
+
+public class Assignment3_2 {
+
+	public static void main(String[] args) {
+		// Reverse Number
+
+		// input 12345
+		// output 54321
+
+		int num = 12345;
+		int rev = 0;
+
+		while (num > 0) {
+			int digit = num % 10; // Get last digit
+			rev = rev * 10 + digit; // getting reverse number
+			num = num / 10; // Remove last digit
+
+		}
+		System.out.println("Reversed number: " + rev);
+	}
+
+}
